@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="surface.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="RedEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenMiniBossEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="MissleEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="OrangeMiniBossEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="WalkerEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="YellowEnemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPlacer.cpp">
+      <Filter>Extra Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline.cpp">
+      <Filter>Extra Code</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteDisplayer.cpp">
+      <Filter>Extra Code</Filter>
+    </ClCompile>
+    <ClCompile Include="2DCollision.cpp">
+      <Filter>Extra Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Generic Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Generic Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Generic Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="shot.cpp">
+      <Filter>Generic Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Generic Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="star.cpp">
+      <Filter>Generic Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeFriend.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeBall.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="surface.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h" />
+    <ClInclude Include="RedEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenMiniBossEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="MissleEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="OrangeMiniBossEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="WalkerEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="YellowEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPlacer.h">
+      <Filter>Extra Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline.h">
+      <Filter>Extra Code</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDisplayer.h">
+      <Filter>Extra Code</Filter>
+    </ClInclude>
+    <ClInclude Include="2DCollision.h">
+      <Filter>Extra Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Generic Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Generic Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Generic Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="shot.h">
+      <Filter>Generic Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="star.h">
+      <Filter>Generic Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Generic Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeFriend.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeBall.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template code">
+      <UniqueIdentifier>{bf32dd6e-4be7-4889-8ac6-49e7ee163c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{32ddd4a6-97f7-4894-8291-3ab413c5034e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra Code">
+      <UniqueIdentifier>{59aae653-690c-44d7-8a89-8759994d5df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic Entities">
+      <UniqueIdentifier>{626a43a6-d38a-4ef5-bf2b-c8d567aab71c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt">
+      <Filter>template code</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
